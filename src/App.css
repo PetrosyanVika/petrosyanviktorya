@@ -1,42 +1,36 @@
-#root {
-  max-width: 1280px;
+.Users{
+  background-color: rgb(228, 228, 228);
+  height: 200px;
+  width: 100%;
+  padding-left: 50px;
+  border: 2px solid;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+  margin-top: 20px;
+  border-radius: 16px;
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.Users:hover,
+.UsersActive{
+  box-shadow: rgba(0, 0, 0, 0.834) 0px 5px 15px;
 }
-
-.card {
-  padding: 2em;
+.UsersActive{
+  background-color: rgb(112, 161, 228);
+  border-radius: 16px;
+  height: 200px;
+  width: 100%;
+  padding-left: 50px;
+  border: 2px solid;
+  margin: 0 auto;
+  margin-top: 20px;
 }
-
-.read-the-docs {
-  color: #888;
+.deleteButton{
+  cursor: pointer;
+  padding: 10px 10px;
+  font-size: 16px;
+  border-radius: 16px;
+}
+.deleteButton.ActiveButton{
+  background-color: red;
+  border: none;
 }
