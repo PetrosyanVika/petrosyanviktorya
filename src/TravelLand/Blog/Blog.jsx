@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { newsBlog } from "./newsBlog";
 import "./Blog.scss";
 
-export default function Blog() {
-  const [blog, setBlog] = useState([
+const Blog=()=> {
+  const [blog] = useState([
     {
       id: 1,
       image: "./blogimage1.png",
@@ -13,7 +13,7 @@ export default function Blog() {
       link: "@thomasalva_adison",
     },
   ]);
-  const [news, setNews] = useState(newsBlog);
+  const [news] = useState(newsBlog);
   return (
     <div className="Main">
       <h1>From Blog & News</h1>
@@ -52,3 +52,4 @@ export default function Blog() {
     </div>
   );
 }
+export default Blog

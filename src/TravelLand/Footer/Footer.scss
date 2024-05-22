@@ -1,8 +1,28 @@
 .Footer {
-  width: 1600px;
-  height: 348px;
+  height: auto;
   top: 3599px;
   gap: 0px;
   opacity: 0px;
   background: #2694990a;
+  h1{
+    font-size: 25px;
+    text-align: center;
+  }
+  &__contact{
+    margin-top: 20px;
+    text-align: center;
+    span{
+      display: block;
+      margin-bottom: 10px;
+      color: rgba(0, 0, 255, 0.342);
+      font-size: 20px;
+      text-decoration: underline;
+      cursor: pointer;
+      i{
+        font-size: 20px;
+        color: rgb(4, 4, 89);
+        padding-right: 15px;
+      }
+    }
+  }
 }

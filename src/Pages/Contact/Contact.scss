@@ -1,0 +1,23 @@
+.Contact{
+padding: 50px;   
+ width: 50%;
+    h1{
+        font-weight: 400;
+
+    }
+    &__social{
+        padding-top: 50px;
+        h3{
+            color: white;
+            font-size: 30px;
+        }
+            span{
+                text-decoration: underline;
+                font-size: 20px;
+                width: 20px;
+                cursor: pointer;
+                color: rgb(170, 170, 226);
+
+            }
+    }
+}

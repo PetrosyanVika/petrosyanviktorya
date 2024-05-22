@@ -1,5 +1,5 @@
 .Location {
-  padding-left: 150px;
+  padding-top: 60px;
   width: 1140px;
   height: 688px;
   display: grid;
@@ -24,11 +24,12 @@
   }
   &__about {
     width: 360px;
-    height: 250px;
+    height: 150px;
     margin-top: -4px;
     border: 1px solid rgba(141, 138, 138, 0.329);
     border-radius: 0px 0px 10px 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
   }
   &__content {
     grid-column: 1 / -1;
