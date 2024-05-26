@@ -1,1 +1,5 @@
-{}
+{
+  "projects": {
+    "default": "traveland-b3b3e"
+  }
+}
