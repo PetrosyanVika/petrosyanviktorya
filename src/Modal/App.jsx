@@ -1,11 +1,6 @@
 import React, { useState } from 'react'
 import Modal from './Modal';
-<<<<<<< HEAD
 import Register from './Regiser';
-
-=======
-import Register from './Register';
->>>>>>> cb00cfd1749185e579259a21f961d3f70bc53f2a
 
 export default function App() {
     const [isOpen, setIsOpen] = useState(false);
